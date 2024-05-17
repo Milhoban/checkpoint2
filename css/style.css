@@ -1,0 +1,57 @@
+body{
+    padding: 1.5rem;
+    background-color: #59386e;
+}
+
+#listaDeTarefas{
+
+    display: block;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+    
+
+}
+
+form{
+    max-width: 2000px;
+    margin: 1.78rem auto;
+
+    .botoes{
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.apagando {
+    animation: fadeout 1s;
+}
+
+@keyframes fadeout {
+    from {
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+h1{
+    color:white;
+}
+
+h2{
+    color:white;
+}
+
+div{
+    color:white;
+}
+
+.nes-container.is-dark {
+    position: relative;
+    margin: 4px;
+    color: #fff;
+    background-color: #5b3689;
+    border-color: #fff;
+}
